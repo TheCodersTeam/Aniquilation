@@ -1,5 +1,5 @@
-name: ${project.name}
-version: ${project.version}
-description: ${project.description}
+name: Aniquilation
+version: 1
+description: Plugin
 authors: []
 main: io.github.thecodersteam.aniquilation.Aniquilation
