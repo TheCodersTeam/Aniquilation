@@ -2,6 +2,7 @@ package io.github.thecodersteam.aniquilation;
 
 import com.sk89q.bukkit.util.CommandsManagerRegistration;
 import com.sk89q.minecraft.util.commands.CommandsManager;
+import io.github.thecodersteam.aniquilation.utils.Log;
 import org.bukkit.command.CommandSender;
 import org.bukkit.command.ConsoleCommandSender;
 import org.bukkit.plugin.java.JavaPlugin;
@@ -15,6 +16,7 @@ public class Aniquilation extends JavaPlugin {
     @Override
     public void onEnable() {
         instance = this;
+        Log.init(this, true);
         
         this.commands = new CommandsManager<CommandSender>() {
             @Override
