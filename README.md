@@ -6,4 +6,6 @@ A plugin for a new gamemode!
 This plugin includes:
 
 - Multiple arena support
-- Multiwowrld managed by this plugin!
+- Multiworld managed by this plugin!
+- Join/Leave Signs
+- Game States
